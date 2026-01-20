@@ -40,7 +40,7 @@ export default function App() {
      FETCH PROPERTIES
   ======================== */
   useEffect(() => {
-    fetch("http://localhost:5000/api/properties")
+    fetch("https://room-booking-website.onrender.com/api/properties")
       .then((res) => {
         if (!res.ok) {
           throw new Error("Failed to fetch");

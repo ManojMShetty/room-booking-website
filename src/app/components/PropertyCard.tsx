@@ -31,7 +31,7 @@ export function PropertyCard({ property }: PropertyCardProps) {
 
     try {
       const response = await fetch(
-        "http://localhost:5000/api/bookings",
+        "https://room-booking-website.onrender.com/api/bookings",
         {
           method: "POST",
           headers: { "Content-Type": "application/json" },
